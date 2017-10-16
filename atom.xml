@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HEWeddy&#39;s Blog</title>
+  
+  <subtitle>有条不紊的奋斗前行，舒展从容的恬静人生。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://gitee.com/hfweddy/"/>
+  <updated>2017-10-16T15:09:18.279Z</updated>
+  <id>https://gitee.com/hfweddy/</id>
+  
+  <author>
+    <name>HFWeddy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建hexo博客的过程</title>
+    <link href="https://gitee.com/hfweddy/2017/10/16/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/"/>
+    <id>https://gitee.com/hfweddy/2017/10/16/搭建hexo博客的过程/</id>
+    <published>2017-10-16T14:46:31.000Z</published>
+    <updated>2017-10-16T15:09:18.279Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇什么样的文章，留空，测试。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一篇什么样的文章，留空，测试。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="博客" scheme="https://gitee.com/hfweddy/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="hexo" scheme="https://gitee.com/hfweddy/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
