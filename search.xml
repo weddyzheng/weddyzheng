@@ -3,17 +3,29 @@
   
     
     <entry>
-      <title><![CDATA[搭建hexo博客的过程]]></title>
-      <url>/2017/10/16/%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%87%E7%A8%8B/</url>
-      <content type="html"><![CDATA[<p>这是一篇什么样的文章，留空，测试。</p>
-]]></content>
+      <title><![CDATA[使用Hexo在gitee和github搭建博客]]></title>
+      <url>/2017/10/17/%E4%BD%BF%E7%94%A8hexo%E5%9C%A8gitee%E5%92%8Cgithub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>如何在gitee和github搭建博客，网络上已经有了很多，这里只是简要记录自己搭建博客的过程，仅供参考。<br><a id="more"></a></excerpt></p>
+<the rest="" of="" contents="" |="" 余下全文="">
+
+<p>网络上已经有了很多如何在gitee和github搭建博客的文章，这里不再重复。例如，想要在github建立个人博客的可以参考这篇文章：<a href="hhttp://www.cnblogs.com/yudar/p/4883370.html" target="_blank" rel="external">使用 github Pages 服务建立个人独立博客全过程</a>。在gitee搭建个人博客的可以参考这篇文章：<a href="http://weixin.niurenqushi.com/article/2017-01-23/4750045.html" target="_blank" rel="external">免费个人博客搭建教程详解：Hexo+OSChina</a>。我只介绍自己遇到的一些问题。</p>
+<h2 id="码云gitee-pages服务的开启"><a href="#码云gitee-pages服务的开启" class="headerlink" title="码云gitee pages服务的开启"></a>码云gitee pages服务的开启</h2><p>可以看图片：<br><img src="http://note.youdao.com/yws/public/resource/2b9ad6b163c1f0d46810736aa2ae6c6a/xmlnote/B30A4B63FD7A491A901953859B6679FD/3178" alt="image"></p>
+</the>]]></content>
       
+        <categories>
+            
+            <category> Hexo </category>
+            
+        </categories>
+        
         
         <tags>
             
             <tag> 博客 </tag>
             
-            <tag> hexo </tag>
+            <tag> gitee </tag>
+            
+            <tag> github </tag>
             
         </tags>
         
