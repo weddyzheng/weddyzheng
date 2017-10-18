@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[MongoDB使用记录]]></title>
       <url>/2017/10/18/MongoDB%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/</url>
-      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。<br>+<a id="more"></a></excerpt></p>
+      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。<br><a id="more"></a></excerpt></p>
 <the rest="" of="" contents="" |="" 余下全文="">
 
 <h2 id="注册MongoDB服务"><a href="#注册MongoDB服务" class="headerlink" title="注册MongoDB服务"></a>注册MongoDB服务</h2><p>首先，以管理员身份打开命令提示符，切换到MongoDB的bin目录。</p>

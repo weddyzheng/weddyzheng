@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gitee.com/hfweddy/"/>
-  <updated>2017-10-18T00:50:28.250Z</updated>
+  <updated>2017-10-18T02:34:47.474Z</updated>
   <id>https://gitee.com/hfweddy/</id>
   
   <author>
@@ -21,13 +21,13 @@
     <link href="https://gitee.com/hfweddy/2017/10/18/MongoDB%E4%BD%BF%E7%94%A8%E8%AE%B0%E5%BD%95/"/>
     <id>https://gitee.com/hfweddy/2017/10/18/MongoDB使用记录/</id>
     <published>2017-10-18T00:44:00.000Z</published>
-    <updated>2017-10-18T00:50:28.250Z</updated>
+    <updated>2017-10-18T02:34:47.474Z</updated>
     
-    <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。<br>+<a id="more"></a></excerpt></p><the rest="" of="" contents="" |="" 余下全文=""><h2 id="注册MongoDB服务"><a href="#注册MongoDB服务" class="headerlink" title="注册MongoDB服务"></a>注册MongoDB服务</h2><p>首先，以管理员身份打开命令提示符，切换到MongoDB的bin目录。</p><p>接着，执行下面这一条语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongod.exe --logpath E:\DevSoft\mongodb\Data\log\mongodb.log --logappend --dbpath E:\DevSoft\mongodb\Data\db --directoryperdb --install --serviceName &quot;MongoDB&quot;</div></pre></td></tr></table></figure></p><p>参数说明:</p><ul><li>–logpath arg #指定MongoDB日志文件</li><li>–logappend   #使用追加的方式写日志</li><li>–dbpath arg  #指定数据库路径</li><li>–directoryperdb    #设置每个数据库将被保存在一个单独的目录</li><li>–serviceName #Windows服务的名称</li></ul><p>最后，开启和关闭服务的语句。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">net start MongoDB</div><div class="line">net stop MongoDB</div></pre></td></tr></table></figure><p>注意一点：这些语句也要以==管理员==的身份运行，否则会报”发生系统错误5，拒绝访问”的提示。</p><h2 id="python使用MongoDB"><a href="#python使用MongoDB" class="headerlink" title="python使用MongoDB"></a>python使用MongoDB</h2><p>安装第三方插件库pymongo，<a href="https://pypi.python.org/pypi/pymongo/" target="_blank" rel="external">官方文档</a>。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python -m pip install pymongo</div></pre></td></tr></table></figure></the>]]></content>
+    <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。<br><a id="more"></a></excerpt></p><the rest="" of="" contents="" |="" 余下全文=""><h2 id="注册MongoDB服务"><a href="#注册MongoDB服务" class="headerlink" title="注册MongoDB服务"></a>注册MongoDB服务</h2><p>首先，以管理员身份打开命令提示符，切换到MongoDB的bin目录。</p><p>接着，执行下面这一条语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongod.exe --logpath E:\DevSoft\mongodb\Data\log\mongodb.log --logappend --dbpath E:\DevSoft\mongodb\Data\db --directoryperdb --install --serviceName &quot;MongoDB&quot;</div></pre></td></tr></table></figure></p><p>参数说明:</p><ul><li>–logpath arg #指定MongoDB日志文件</li><li>–logappend   #使用追加的方式写日志</li><li>–dbpath arg  #指定数据库路径</li><li>–directoryperdb    #设置每个数据库将被保存在一个单独的目录</li><li>–serviceName #Windows服务的名称</li></ul><p>最后，开启和关闭服务的语句。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">net start MongoDB</div><div class="line">net stop MongoDB</div></pre></td></tr></table></figure><p>注意一点：这些语句也要以==管理员==的身份运行，否则会报”发生系统错误5，拒绝访问”的提示。</p><h2 id="python使用MongoDB"><a href="#python使用MongoDB" class="headerlink" title="python使用MongoDB"></a>python使用MongoDB</h2><p>安装第三方插件库pymongo，<a href="https://pypi.python.org/pypi/pymongo/" target="_blank" rel="external">官方文档</a>。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python -m pip install pymongo</div></pre></td></tr></table></figure></the>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。&lt;br&gt;+
+      &lt;p&gt;&lt;excerpt in=&quot;&quot; index=&quot;&quot; |=&quot;&quot; 首页摘要=&quot;&quot;&gt;&lt;br&gt;在学习使用MongoDB中遇到一些问题，本文记录使用发现的问题和解决方案，使用环境为Win0 X64。&lt;br&gt;
     
     </summary>
     
