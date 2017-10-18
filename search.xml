@@ -20,7 +20,7 @@
 </ul>
 <p>最后，开启和关闭服务的语句。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">net start MongoDB</div><div class="line">net stop MongoDB</div></pre></td></tr></table></figure>
-<p>注意一点：这些语句也要以==管理员==的身份运行，否则会报”发生系统错误5，拒绝访问”的提示。</p>
+<p>注意一点：这些语句也要以管理员的身份运行，否则会报”发生系统错误5，拒绝访问”的提示。</p>
 <h2 id="python使用MongoDB"><a href="#python使用MongoDB" class="headerlink" title="python使用MongoDB"></a>python使用MongoDB</h2><p>安装第三方插件库pymongo，<a href="https://pypi.python.org/pypi/pymongo/" target="_blank" rel="external">官方文档</a>。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ python -m pip install pymongo</div></pre></td></tr></table></figure>
 </the>]]></content>
